@@ -43,8 +43,6 @@ def get_authenticated_service():
 
 youtube = get_authenticated_service()
 
-youtube
-
 
 class VideoAlreadyUpdated(Exception):
     pass
